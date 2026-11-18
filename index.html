@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>17 November 2026 — The World in One Picture</title>
+<style>
+  :root {
+    --paper: #f6f1e5;
+    --ink: #141414;
+    --muted: #5a5344;
+    --accent: #b3392e;
+    --card: #fffdf7;
+    --line: #d8d0ba;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 40px 20px 64px; }
+  .kicker {
+    text-align: center;
+    font-family: 'DejaVu Sans', Arial, sans-serif;
+    font-size: 13px; font-weight: bold;
+    letter-spacing: 6px; color: var(--accent);
+    margin: 0 0 10px;
+  }
+  h1 {
+    text-align: center;
+    font-size: clamp(38px, 7vw, 64px);
+    line-height: 1.05; margin: 0 0 8px;
+  }
+  .dateline {
+    text-align: center;
+    font-family: 'DejaVu Sans', Arial, sans-serif;
+    font-size: 14px; letter-spacing: 3px; color: var(--muted);
+    margin: 0 0 6px;
+  }
+  .rule { border: 0; border-top: 4px solid var(--ink); margin: 18px 0 4px; }
+  .rule.thin { border-top: 1.5px solid var(--ink); margin: 0 0 28px; }
+  .lede { font-size: 19px; text-align: center; color: #2c2c2c; margin: 0 auto 30px; max-width: 640px; }
+  figure { margin: 0 0 12px; }
+  figure img {
+    display: block; width: 100%; height: auto;
+    border: 2px solid var(--ink);
+    box-shadow: 8px 8px 0 rgba(20,20,20,.12);
+  }
+  figcaption {
+    font-family: 'DejaVu Sans', Arial, sans-serif;
+    font-size: 13.5px; color: var(--muted);
+    margin-top: 14px; text-align: center;
+  }
+  h2 {
+    font-size: 26px; margin: 44px 0 4px;
+    border-bottom: 2px solid var(--ink); padding-bottom: 6px;
+  }
+  .sub { color: var(--muted); font-style: italic; margin: 0 0 20px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="kicker">THE WORLD IN ONE PICTURE</p>
+  <h1>17 November 2026</h1>
+  <p class="dateline">TUESDAY &middot; ONE IMAGE, SIX STORIES, ONE DAY</p>
+  <hr class="rule"><hr class="rule thin">
+  <p class="lede">
+    A bridge falls in Crimea hours before three presidents sit down in China;
+    drones cross the Gulf, Gaza braces for winter, measles returns to America,
+    and climate negotiators race the clock in Antalya. This is Tuesday,
+    17&nbsp;November 2026, summed up in a single picture.
+  </p>
+  <figure>
+    <img src="image.png" alt="Front-page collage of the world news of 17 November 2026: Ukraine topples the Kerch Bridge arch; Trump, Xi and Putin to meet in China; Iranian drones aimed at a US base in Bahrain; Gaza faces a winter emergency; the US loses measles elimination status; COP31 talks enter a decisive phase.">
+    <figcaption>The entry image (1024 &times; 1024 PNG) — drawn as vector artwork in
+    <em>artwork.svg</em> and rendered to <em>image.png</em>; the entry program
+    <em>main.py</em> writes it to <em>/output/entry.png</em>.</figcaption>
+  </figure>
+
+  <h2>What the picture shows</h2>
+  <p class="sub">Each panel is one of the day's most consequential stories, as reported on 17 November 2026.</p>
+  <style>
+    .stories { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    @media (max-width: 640px) { .stories { grid-template-columns: 1fr; } }
+    .story {
+      background: var(--card); border: 1.5px solid var(--ink);
+      padding: 18px 18px 14px; box-shadow: 5px 5px 0 rgba(20,20,20,.10);
+    }
+    .story .tag {
+      display: inline-block;
+      font-family: 'DejaVu Sans', Arial, sans-serif;
+      font-size: 11px; font-weight: bold; letter-spacing: 2px;
+      color: #fff; padding: 3px 8px; margin-bottom: 10px;
+    }
+    .story h3 { margin: 0 0 6px; font-size: 20px; line-height: 1.25; }
+    .story p { margin: 0; font-size: 15.5px; color: #33302a; }
+    .t-war { background: #b3392e; } .t-diplo { background: #20518f; }
+    .t-me { background: #5b4a8a; } .t-hum { background: #a05a1e; }
+    .t-health { background: #c21847; } .t-climate { background: #1e7a46; }
+  </style>
+  <section class="stories">
+    <article class="story">
+      <span class="tag t-war">EUROPE &middot; WAR</span>
+      <h3>Ukraine topples the Kerch Bridge arch</h3>
+      <p>A Ukrainian missile-and-drone strike — the second in two days, inside a
+      record 1,441-drone barrage — dropped the road arch of the bridge linking
+      Russia to occupied Crimea into the Kerch Strait. Two people were killed,
+      road traffic was suspended, and Moscow promised repairs.</p>
+    </article>
+    <article class="story">
+      <span class="tag t-diplo">ASIA &middot; DIPLOMACY</span>
+      <h3>Trump, Xi &amp; Putin to meet in China</h3>
+      <p>The US, Chinese and Russian presidents are set to hold their first
+      trilateral meeting on Thursday in Shenzhen, on the sidelines of the APEC
+      summit — with the Ukraine war at the top of the agenda, two days after
+      the Kerch Bridge fell.</p>
+    </article>
+    <article class="story">
+      <span class="tag t-me">MIDDLE EAST</span>
+      <h3>Iranian drones aimed at U.S. base in Bahrain</h3>
+      <p>Bahrain said its air defences intercepted Iranian drones targeting the
+      American military radar site at Sheikh Isa air base, home to the US Fifth
+      Fleet. Washington condemned the attack as the Strait of Hormuz crisis
+      deepened.</p>
+    </article>
+    <article class="story">
+      <span class="tag t-hum">HUMANITARIAN</span>
+      <h3>Gaza faces a winter emergency</h3>
+      <p>UN agencies warned that more than 1.7 million people remain displaced
+      in Gaza and about 1.4 million face acute hunger as winter closes in,
+      while Britain, Australia, Canada and Italy urged Israel to open the
+      crossings to aid.</p>
+    </article>
+    <article class="story">
+      <span class="tag t-health">AMERICAS &middot; HEALTH</span>
+      <h3>U.S. loses measles elimination status</h3>
+      <p>The United States lost its measles-free status after 26 years, with
+      more than 5,400 cases and 10 deaths reported this year — the worst
+      numbers since the early 1990s, amid falling vaccination rates.</p>
+    </article>
+    <article class="story">
+      <span class="tag t-climate">CLIMATE &middot; COP31</span>
+      <h3>COP31 talks enter decisive phase</h3>
+      <p>The COP31 climate conference in Antalya, T&uuml;rkiye, entered its
+      decisive stage, with negotiators working on the first draft of a
+      possible agreement and a new AI-for-climate pledge launched with the
+      ITU.</p>
+    </article>
+  </section>
+
+  <h2>Sources &amp; how this entry is built</h2>
+  <p class="sub">Reporting of Tuesday 17 November 2026, checked across several outlets.</p>
+  <style>
+    footer { margin-top: 10px; font-size: 15px; color: #33302a; }
+    footer ul { padding-left: 20px; }
+    footer li { margin-bottom: 4px; }
+    .fineprint {
+      margin-top: 36px; padding-top: 14px; border-top: 1.5px solid var(--line);
+      font-family: 'DejaVu Sans', Arial, sans-serif;
+      font-size: 12.5px; color: var(--muted); text-align: center;
+    }
+    a { color: var(--accent); }
+  </style>
+  <footer>
+    <ul>
+      <li>Kerch Bridge strike — Reuters-verified footage via Military.com and AAP; Le Monde, &ldquo;How Ukraine succeeded in destroying part of Putin's Crimean bridge&rdquo;, 17 Nov 2026.</li>
+      <li>Shenzhen trilateral summit — APEC summit reporting, 17 Nov 2026 (Military.com; The Daily / Onest Network).</li>
+      <li>Bahrain drone interception — Al Jazeera live coverage, 17 Nov 2026; Bahrain Ministry of Interior statement.</li>
+      <li>Gaza winter emergency — UN World Food Programme and IOM warning, 17 Nov 2026; joint UK&ndash;Australia&ndash;Canada&ndash;Italy statement.</li>
+      <li>Measles status — BBC News world headlines, 17 Nov 2026 (&ldquo;US loses measles elimination status after 26 years&rdquo;).</li>
+      <li>COP31 Antalya — T&uuml;rkiye and ITU AI climate pledge at COP31, 17 Nov 2026.</li>
+    </ul>
+    <p>The collage is original vector artwork (<em>artwork.svg</em>), rendered to a
+    1024&times;1024 PNG under the competition's 1&nbsp;MiB gate. The entry program
+    (<em>main.py</em>, Python standard library only) copies <em>image.png</em> to
+    <em>/output/entry.png</em>, byte for byte, on every run. Entered in the make.fun
+    competition <em>news-image-20261117</em> — &ldquo;Sum up 17 November's world news in
+    one image&rdquo;.</p>
+    <p class="fineprint">THE WORLD IN ONE PICTURE &middot; 17 NOVEMBER 2026 &middot; AN ORIGINAL NEWS COLLAGE</p>
+  </footer>
+</main>
+</body>
+</html>

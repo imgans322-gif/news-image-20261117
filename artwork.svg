@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- The world news of Tuesday 17 November 2026 in one picture.
+       Vector front-page collage; rendered to image.png (1024x1024). -->
+  <rect x="0" y="0" width="1024" height="1024" fill="#f6f1e5"/>
+  <rect x="14" y="14" width="996" height="996" fill="none" stroke="#141414" stroke-width="3"/>
+
+  <!-- ===== Masthead ===== -->
+  <text x="512" y="52" text-anchor="middle" font-family="'DejaVu Sans', Arial, sans-serif"
+        font-size="21" font-weight="bold" letter-spacing="7" fill="#b3392e">THE WORLD IN ONE PICTURE</text>
+  <text x="512" y="136" text-anchor="middle" font-family="Georgia, 'DejaVu Serif', serif"
+        font-size="74" font-weight="bold" fill="#141414">17 NOVEMBER 2026</text>
+  <text x="512" y="168" text-anchor="middle" font-family="'DejaVu Sans', Arial, sans-serif"
+        font-size="20" letter-spacing="3" fill="#4a4a4a">TUESDAY &#183; THE DAY'S WORLD NEWS, IN A SINGLE IMAGE</text>
+  <rect x="36" y="180" width="952" height="5" fill="#141414"/>
+  <rect x="36" y="189" width="952" height="2" fill="#141414"/>
+
+  <!-- ===== Panel 1: Ukraine topples Kerch Bridge arch (x=36,y=204) ===== -->
+  <g>
+    <rect x="41" y="209" width="466" height="250" fill="#d9d2c0"/>
+    <rect x="36" y="204" width="466" height="250" fill="#fffdf7" stroke="#141414" stroke-width="2"/>
+    <rect x="36" y="204" width="466" height="34" fill="#b3392e"/>
+    <text x="52" y="227" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="2" fill="#ffffff">EUROPE &#183; WAR</text>
+    <rect x="38" y="240" width="462" height="106" fill="#d9e9f6"/>
+    <rect x="38" y="312" width="462" height="34" fill="#3f74a8"/>
+    <path d="M38 318 q30 -8 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0" fill="none" stroke="#cfe3f2" stroke-width="3"/>
+    <!-- intact deck + arch, left -->
+    <path d="M38 292 Q150 236 262 292" fill="none" stroke="#54687c" stroke-width="7"/>
+    <rect x="38" y="290" width="238" height="9" fill="#54687c"/>
+    <rect x="70" y="299" width="10" height="16" fill="#54687c"/>
+    <rect x="220" y="299" width="10" height="16" fill="#54687c"/>
+    <!-- fallen span, tilted into the sea -->
+    <g transform="translate(300 296) rotate(24)">
+      <rect x="0" y="0" width="120" height="9" fill="#54687c"/>
+      <path d="M6 0 Q60 -34 114 0" fill="none" stroke="#54687c" stroke-width="6"/>
+    </g>
+    <rect x="424" y="290" width="76" height="9" fill="#54687c"/>
+    <!-- explosion burst at the break -->
+    <polygon points="286,246 294,264 312,258 302,274 318,282 300,286 304,304 290,290 276,302 278,284 260,282 276,272 264,258 282,262"
+             fill="#e8862e" stroke="#b3392e" stroke-width="2"/>
+    <!-- splash -->
+    <path d="M392 330 l8 -16 M410 332 l2 -18 M428 330 l-6 -15" stroke="#ffffff" stroke-width="4" fill="none"/>
+    <!-- drone -->
+    <g transform="translate(440 258)" fill="#26303a">
+      <rect x="-14" y="-4" width="28" height="8" rx="3"/>
+      <path d="M-14 -2 L-26 -12 M14 -2 L26 -12 M-14 2 L-24 12 M14 2 L24 12" stroke="#26303a" stroke-width="3"/>
+      <circle cx="-28" cy="-14" r="5" fill="none" stroke="#26303a" stroke-width="2.5"/>
+      <circle cx="28" cy="-14" r="5" fill="none" stroke="#26303a" stroke-width="2.5"/>
+    </g>
+    <path d="M408 276 Q360 268 322 276" fill="none" stroke="#26303a" stroke-width="2.5" stroke-dasharray="6 6"/>
+    <text x="52" y="384" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">UKRAINE TOPPLES</text>
+    <text x="52" y="416" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">KERCH BRIDGE ARCH</text>
+    <text x="52" y="442" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" fill="#4a4a4a">Road arch down &#183; crossing closed &#183; two killed</text>
+  </g>
+
+  <!-- ===== Panel 2: Trump, Xi & Putin summit, Shenzhen (x=522,y=204) ===== -->
+  <g>
+    <rect x="527" y="209" width="466" height="250" fill="#d9d2c0"/>
+    <rect x="522" y="204" width="466" height="250" fill="#fffdf7" stroke="#141414" stroke-width="2"/>
+    <rect x="522" y="204" width="466" height="34" fill="#20518f"/>
+    <text x="538" y="227" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="2" fill="#ffffff">ASIA &#183; DIPLOMACY</text>
+    <rect x="524" y="240" width="462" height="106" fill="#f6ecd4"/>
+    <circle cx="896" cy="272" r="20" fill="#e8a13a"/>
+    <!-- Shenzhen skyline -->
+    <g fill="#33404f">
+      <rect x="524" y="306" width="34" height="40"/>
+      <rect x="566" y="292" width="26" height="54"/>
+      <rect x="600" y="314" width="40" height="32"/>
+      <rect x="872" y="300" width="30" height="46"/>
+      <rect x="910" y="288" width="24" height="58"/>
+      <rect x="942" y="310" width="44" height="36"/>
+    </g>
+    <rect x="524" y="344" width="462" height="3" fill="#33404f"/>
+    <!-- three flags -->
+    <g stroke="#5a4632" stroke-width="4">
+      <line x1="668" y1="262" x2="668" y2="344"/>
+      <line x1="755" y1="262" x2="755" y2="344"/>
+      <line x1="842" y1="262" x2="842" y2="344"/>
+    </g>
+    <g>
+      <rect x="668" y="262" width="58" height="38" fill="#ffffff" stroke="#999" stroke-width="1"/>
+      <path d="M668 268 h58 M668 274 h58 M668 280 h58 M668 286 h58 M668 292 h58" stroke="#b3392e" stroke-width="3"/>
+      <rect x="668" y="262" width="26" height="20" fill="#20518f"/>
+      <circle cx="675" cy="268" r="1.8" fill="#fff"/><circle cx="683" cy="268" r="1.8" fill="#fff"/><circle cx="675" cy="275" r="1.8" fill="#fff"/><circle cx="683" cy="275" r="1.8" fill="#fff"/>
+    </g>
+    <g>
+      <rect x="755" y="262" width="58" height="38" fill="#d63a2f"/>
+      <polygon points="763,268 765.5,273.5 771.5,273.5 766.8,277 768.6,282.5 763,279.2 757.4,282.5 759.2,277 754.5,273.5 760.5,273.5" fill="#f7d038"/>
+      <circle cx="778" cy="268" r="1.7" fill="#f7d038"/><circle cx="781" cy="274" r="1.7" fill="#f7d038"/><circle cx="778" cy="280" r="1.7" fill="#f7d038"/>
+    </g>
+    <g>
+      <rect x="842" y="262" width="58" height="38" fill="#ffffff" stroke="#999" stroke-width="1"/>
+      <rect x="842" y="275" width="58" height="12" fill="#20518f"/>
+      <rect x="842" y="287" width="58" height="13" fill="#d63a2f"/>
+    </g>
+    <text x="538" y="384" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">TRUMP, XI &amp; PUTIN</text>
+    <text x="538" y="416" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">TO MEET IN CHINA</text>
+    <text x="538" y="442" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" fill="#4a4a4a">First trilateral summit &#183; Shenzhen, Thursday</text>
+  </g>
+
+  <!-- ===== Panel 3: Bahrain intercepts Iranian drones (x=36,y=470) ===== -->
+  <g>
+    <rect x="41" y="475" width="466" height="250" fill="#d9d2c0"/>
+    <rect x="36" y="470" width="466" height="250" fill="#fffdf7" stroke="#141414" stroke-width="2"/>
+    <rect x="36" y="470" width="466" height="34" fill="#5b4a8a"/>
+    <text x="52" y="493" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="2" fill="#ffffff">MIDDLE EAST</text>
+    <rect x="38" y="506" width="462" height="106" fill="#46538a"/>
+    <rect x="38" y="580" width="462" height="32" fill="#2e4468"/>
+    <path d="M38 588 q30 -8 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0" fill="none" stroke="#9db8d8" stroke-width="3"/>
+    <!-- radar base -->
+    <g>
+      <polygon points="96,584 150,584 140,556 106,556" fill="#c8ccd4"/>
+      <rect x="116" y="540" width="14" height="18" fill="#c8ccd4"/>
+      <path d="M123 540 a30 30 0 0 1 30 -22 l-8 14 a18 18 0 0 0 -14 12 z" fill="#e8b13a"/>
+      <circle cx="123" cy="540" r="4" fill="#e8b13a"/>
+    </g>
+    <!-- protective dome over the base -->
+    <path d="M52 584 a96 74 0 0 1 192 0" fill="none" stroke="#e8b13a" stroke-width="3" stroke-dasharray="8 6"/>
+    <!-- incoming drones, one intercepted -->
+    <g transform="translate(330 536) rotate(-14)" fill="#14181f">
+      <rect x="-16" y="-4" width="32" height="8" rx="3"/>
+      <path d="M-16 -2 L-28 -13 M16 -2 L28 -13 M-16 2 L-26 13 M16 2 L26 13" stroke="#14181f" stroke-width="3"/>
+      <circle cx="-30" cy="-15" r="5" fill="none" stroke="#14181f" stroke-width="2.5"/>
+      <circle cx="30" cy="-15" r="5" fill="none" stroke="#14181f" stroke-width="2.5"/>
+    </g>
+    <polygon points="398,512 405,528 421,522 412,536 426,544 409,547 413,562 400,550 388,562 389,546 374,544 389,535 378,522 394,526"
+             fill="#e8862e" stroke="#d63a2f" stroke-width="2"/>
+    <g transform="translate(438 552) rotate(28)" fill="#14181f">
+      <rect x="-13" y="-3" width="26" height="7" rx="3"/>
+      <path d="M-13 -2 L-23 -11 M13 -2 L23 -11" stroke="#14181f" stroke-width="3"/>
+    </g>
+    <text x="52" y="650" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">IRANIAN DRONES AIMED</text>
+    <text x="52" y="682" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">AT U.S. BASE IN BAHRAIN</text>
+    <text x="52" y="708" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" fill="#4a4a4a">Bahrain intercepts drones over Gulf base</text>
+  </g>
+
+  <!-- ===== Panel 4: Gaza winter emergency (x=522,y=470) ===== -->
+  <g>
+    <rect x="527" y="475" width="466" height="250" fill="#d9d2c0"/>
+    <rect x="522" y="470" width="466" height="250" fill="#fffdf7" stroke="#141414" stroke-width="2"/>
+    <rect x="522" y="470" width="466" height="34" fill="#a05a1e"/>
+    <text x="538" y="493" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="2" fill="#ffffff">HUMANITARIAN</text>
+    <rect x="524" y="506" width="462" height="106" fill="#e9e2d4"/>
+    <!-- storm cloud + rain -->
+    <g fill="#7d8794">
+      <ellipse cx="640" cy="528" rx="58" ry="17"/>
+      <ellipse cx="700" cy="520" rx="46" ry="15"/>
+      <ellipse cx="586" cy="522" rx="34" ry="12"/>
+    </g>
+    <g stroke="#5b7ea6" stroke-width="3">
+      <line x1="600" y1="552" x2="592" y2="568"/>
+      <line x1="640" y1="554" x2="632" y2="570"/>
+      <line x1="680" y1="552" x2="672" y2="568"/>
+      <line x1="716" y1="548" x2="708" y2="564"/>
+    </g>
+    <!-- tents -->
+    <g>
+      <polygon points="548,612 584,566 620,612" fill="#b3a284"/>
+      <polygon points="572,612 584,586 596,612" fill="#6d5c3e"/>
+      <polygon points="622,612 652,574 682,612" fill="#9c8b6c"/>
+      <polygon points="642,612 652,592 662,612" fill="#5d4e34"/>
+    </g>
+    <!-- aid truck -->
+    <g>
+      <rect x="716" y="566" width="104" height="34" fill="#ffffff" stroke="#8a8a8a" stroke-width="2"/>
+      <path d="M820 578 h34 l14 14 v8 h-48 z" fill="#dfe5ea" stroke="#8a8a8a" stroke-width="2"/>
+      <rect x="758" y="574" width="20" height="20" fill="#c22f2f"/>
+      <path d="M768 578 v12 M762 584 h12" stroke="#ffffff" stroke-width="3.5"/>
+      <circle cx="744" cy="602" r="9" fill="#333"/>
+      <circle cx="796" cy="602" r="9" fill="#333"/>
+      <circle cx="848" cy="602" r="9" fill="#333"/>
+    </g>
+    <rect x="524" y="610" width="462" height="2" fill="#b9ac93"/>
+    <text x="538" y="650" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">GAZA FACES A</text>
+    <text x="538" y="682" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">WINTER EMERGENCY</text>
+    <text x="538" y="708" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" fill="#4a4a4a">UN: 1.7M displaced &#183; 1.4M face acute hunger</text>
+  </g>
+
+  <!-- ===== Panel 5: US loses measles elimination status (x=36,y=736) ===== -->
+  <g>
+    <rect x="41" y="741" width="466" height="250" fill="#d9d2c0"/>
+    <rect x="36" y="736" width="466" height="250" fill="#fffdf7" stroke="#141414" stroke-width="2"/>
+    <rect x="36" y="736" width="466" height="34" fill="#c21847"/>
+    <text x="52" y="759" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="2" fill="#ffffff">AMERICAS &#183; HEALTH</text>
+    <rect x="38" y="772" width="462" height="106" fill="#fdeeee"/>
+    <!-- virus -->
+    <g stroke="#c2455e" stroke-width="4">
+      <line x1="130" y1="792" x2="130" y2="806"/>
+      <line x1="130" y1="844" x2="130" y2="858"/>
+      <line x1="92" y1="825" x2="106" y2="825"/>
+      <line x1="154" y1="825" x2="168" y2="825"/>
+      <line x1="103" y1="798" x2="113" y2="808"/>
+      <line x1="147" y1="842" x2="157" y2="852"/>
+      <line x1="157" y1="798" x2="147" y2="808"/>
+      <line x1="113" y1="842" x2="103" y2="852"/>
+    </g>
+    <circle cx="130" cy="825" r="26" fill="#e56b81"/>
+    <circle cx="120" cy="816" r="5" fill="#f6b8c4"/>
+    <circle cx="140" cy="830" r="6" fill="#f6b8c4"/>
+    <circle cx="126" cy="838" r="3.5" fill="#f6b8c4"/>
+    <!-- rising case chart -->
+    <g>
+      <line x1="238" y1="786" x2="238" y2="862" stroke="#8a8a8a" stroke-width="2.5"/>
+      <line x1="238" y1="862" x2="452" y2="862" stroke="#8a8a8a" stroke-width="2.5"/>
+      <rect x="262" y="838" width="30" height="24" fill="#e8a0ae"/>
+      <rect x="312" y="826" width="30" height="36" fill="#dd7286"/>
+      <rect x="362" y="806" width="30" height="56" fill="#d14a64"/>
+      <polyline points="252,850 322,824 372,800 438,782" fill="none" stroke="#a01230" stroke-width="4"/>
+      <polygon points="438,782 424,782 434,792" fill="#a01230"/>
+    </g>
+    <text x="52" y="916" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">U.S. LOSES MEASLES</text>
+    <text x="52" y="948" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">ELIMINATION STATUS</text>
+    <text x="52" y="974" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" fill="#4a4a4a">Record 5,400+ cases &#183; first loss in 26 years</text>
+  </g>
+
+  <!-- ===== Panel 6: COP31 climate talks, Antalya (x=522,y=736) ===== -->
+  <g>
+    <rect x="527" y="741" width="466" height="250" fill="#d9d2c0"/>
+    <rect x="522" y="736" width="466" height="250" fill="#fffdf7" stroke="#141414" stroke-width="2"/>
+    <rect x="522" y="736" width="466" height="34" fill="#1e7a46"/>
+    <text x="538" y="759" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="2" fill="#ffffff">CLIMATE &#183; COP31</text>
+    <rect x="524" y="772" width="462" height="106" fill="#e2f1e4"/>
+    <!-- globe -->
+    <circle cx="650" cy="825" r="42" fill="#4a90c2"/>
+    <path d="M622 800 q14 -10 26 -2 q-4 10 -14 12 q-12 2 -12 -10z" fill="#3f9e5f"/>
+    <path d="M652 836 q16 -6 24 4 q-2 12 -16 14 q-12 -4 -8 -18z" fill="#3f9e5f"/>
+    <path d="M626 846 q8 8 18 6 q-4 8 -14 6 q-8 -4 -4 -12z" fill="#3f9e5f"/>
+    <path d="M664 796 q12 -2 16 6 q-8 6 -16 2z" fill="#3f9e5f"/>
+    <!-- thermometer -->
+    <g>
+      <rect x="752" y="786" width="14" height="56" rx="7" fill="#ffffff" stroke="#8a8a8a" stroke-width="2"/>
+      <rect x="756.5" y="806" width="5" height="36" fill="#d63a2f"/>
+      <circle cx="759" cy="850" r="13" fill="#d63a2f"/>
+      <path d="M772 796 h12 M772 812 h12 M772 828 h12" stroke="#8a8a8a" stroke-width="2.5"/>
+    </g>
+    <!-- leaf -->
+    <path d="M852 856 q-6 -34 26 -48 q4 36 -26 48z" fill="#2e9e57"/>
+    <path d="M852 856 q10 -22 24 -34" fill="none" stroke="#1e7a46" stroke-width="3"/>
+    <!-- sun rays -->
+    <g stroke="#e8a13a" stroke-width="4">
+      <line x1="916" y1="786" x2="916" y2="798"/>
+      <line x1="892" y1="798" x2="900" y2="806"/>
+      <line x1="940" y1="798" x2="932" y2="806"/>
+    </g>
+    <circle cx="916" cy="822" r="15" fill="#f2c14e"/>
+    <text x="538" y="916" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">COP31 TALKS ENTER</text>
+    <text x="538" y="948" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="bold" fill="#141414">DECISIVE PHASE</text>
+    <text x="538" y="974" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" fill="#4a4a4a">Antalya talks race toward a first draft deal</text>
+  </g>
+
+  <!-- ===== Footer ===== -->
+  <text x="512" y="1007" text-anchor="middle" font-family="'DejaVu Sans', Arial, sans-serif"
+        font-size="14" fill="#6a6a6a">Reported on 17 November 2026 &#183; Reuters &#183; AP &#183; BBC &#183; Al Jazeera &#183; UN agencies &#183; Le Monde &#183; details in README.md</text>
+</svg>
